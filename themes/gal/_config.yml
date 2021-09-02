@@ -1,14 +1,14 @@
 # use_logo如果为true, 需要在logo_image设置路径
-use_logo: false
-logo_image:  # 使用路径, 填写文件名即可(比如, logo_image: logo.png 指向 source/imgs/logo.png)
-navbar_text: # 如果没有Logo, 则设置为false, 并且设置navbar_text(否则默认为站点标题, 最好进行设置)
+use_logo: true
+logo_image: source/imgs/love69renpyremasterprojectlogo.png  # 使用路径, 填写文件名即可(比如, logo_image: logo.png 指向 source/imgs/logo.png)
+navbar_text: LOVEPOTION SIXTYNINE Ren'py 汉化移植项目组 官方网站 || Demo版绝赞制作中 # 如果没有Logo, 则设置为false, 并且设置navbar_text(否则默认为站点标题, 最好进行设置)
 
 # 必填, 设定小型设备展示背景图, 指向source/imgs, 比如xs_bg_image: bg.png -> source/imgs/bg.png
 xs_bg_image: xsbg.gif
 
 # 必填, 个人头像, 如果是路径, 则指向source/imgs
 # 也可以填http:// OR https:// url地址
-author_image: avatar.jpg
+author_image: avatar.png
 
 # 程序员模式, 适合于用该程序的爱好写技术文章的人员, 默认不开启
 # 选择开启后将会改变article-excerpt, article-content等的显示
@@ -61,25 +61,23 @@ sidebar:
   random_posts: true      # 随机文章, 默认开启
   tags: true              # 热门标签, 默认开启
   friend_links: true      # 友情链接, 默认开启
-  links: true             # 个人链接, 默认开启
+  links: false             # 个人链接, 默认开启
 
 # 友情链接配置, 要先开启上面的friend_links
 friend_links:
-  - name: KDays Forum
-    link: http://kdays.net/days/
-  - name: 绅士导航♂
-    link: http://www.gal123.com/
-  - name: 萌导航
-    link: http://www.moe123.com/
+  - name: 项目地址
+    link: https://github.com/luckykeeper/LOVE69_renpy_remaster
+  - name: 组长的个人博客
+    link: http://b.luckykeeper.site/
 
 # 个人链接配置, 要先开启上面的links
 links:
-  - name: Github
-    link: https://github.com/ZEROKISEKI/
-  - name: Coding
-    link: https://coding.net/u/SORA1
-  - name: 知乎
-    link: https://www.zhihu.com/people/aonosora/activities
+  # - name: Github
+  #   link: https://github.com/ZEROKISEKI/
+  # - name: Coding
+  #   link: https://coding.net/u/SORA1
+  # - name: 知乎
+  #   link: https://www.zhihu.com/people/aonosora/activities
 
 
 # 是否使用公告
