@@ -1,3 +1,4 @@
+# Travis CI 自动构建
 sudo: false
 language: node_js
 node_js:
