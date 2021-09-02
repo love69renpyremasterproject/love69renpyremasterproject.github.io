@@ -3,11 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/love69renpyremasterproject.png
+logo: /img/logo/love69renpyremasterproject.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/love69renpyremasterproject.png
+    favicon: /img/logo/love69renpyremasterproject.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
