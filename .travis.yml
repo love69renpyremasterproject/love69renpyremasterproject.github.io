@@ -1,12 +1,11 @@
-# Travis CI 自动构建 测试
-sudo: false
+# Travis CI 自动构建
 language: node_js
 node_js:
   - 10 # use nodejs v10 LTS
 cache: npm
 branches:
   only:
-    - master # build master branch only
+    - main # build master branch only
 script:
   - hexo generate # generate static files
 deploy:
