@@ -159,9 +159,11 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    type: changyan
+    app_id: cyvDE4xeo
+    conf: prod_a7f1b1341af686b80e41e3e6c9d1d1a7
     # Disqus shortname
-    shortname: ''
+    # shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
@@ -227,7 +229,7 @@ widgets:
         # Author title
         author_title: Demo 版绝赞制作中
         # Author's current location
-        location: China
+        location: https://github.com/luckykeeper/LOVE69_renpy_remaster
         # URL or path to the avatar image
         avatar: /img/logo/love69renpyremasterproject.png
         # Whether show the rounded avatar image

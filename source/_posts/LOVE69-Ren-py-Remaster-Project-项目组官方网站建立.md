@@ -1,6 +1,7 @@
 ---
 title: LOVE69 Ren'py Remaster Project 项目组官方网站建立
-date: 2021-09-03 02:58:30
+date: 2021-09-03 02:38:30
+updated: 2021-09-03 02:58:30
 tags: 项目组相关信息
 ---
 
