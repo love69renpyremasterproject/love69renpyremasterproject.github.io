@@ -4,12 +4,12 @@
 
 # Site
 title: Love69 Ren'py Remaster Project Offical
-subtitle: 'LOVEPOTION SIXTYNINE Ren'py 汉化移植项目组 官方网站'
-description: 'LOVEPOTION SIXTYNINE （LOVE69） Ren'py 汉化移植项目组的官方网站'
+subtitle: LOVEPOTION SIXTYNINE Ren'py 汉化移植项目组 官方网站
+description: LOVEPOTION SIXTYNINE （LOVE69） Ren'py 汉化移植项目组的官方网站
 keywords: LOVE69 LOVEPOTION SIXTYNINE Ren'py 汉化 移植 跨平台 官网 重制 Remaster
 author: Luckykeeper
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
