@@ -4,7 +4,7 @@ date: 2021-09-03 02:58:30
 tags: 项目组相关信息
 ---
 
-![项目组logo](https://github.com/luckykeeper/LOVE69_renpy_remaster/raw/main/images/%E9%A1%B9%E7%9B%AE%E7%BB%84logo_smallsize.png)
+![](https://github.com/luckykeeper/LOVE69_renpy_remaster/raw/main/images/%E9%A1%B9%E7%9B%AE%E7%BB%84logo_smallsize.png)
 
 今天是2021年9月3日，项目开始以来的第六天
 
