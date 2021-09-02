@@ -225,9 +225,9 @@ widgets:
         # Author name
         author: Love69 Ren'py Remaster Project Offical
         # Author title
-        author_title: Demo 版绝赞制作中！
+        author_title: Demo 版绝赞制作中
         # Author's current location
-        项目状态: 在做了在做了
+        location: China
         # URL or path to the avatar image
         avatar: /img/logo/love69renpyremasterproject.png
         # Whether show the rounded avatar image
@@ -305,12 +305,12 @@ widgets:
     # Google AdSense unit configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        # position: left
-        # type: adsense
-        # # AdSense client ID
-        # client_id: ''
-        # # AdSense AD unit ID
-        # slot_id: ''
+        position: left
+        type: adsense
+        # AdSense client ID
+        client_id: ''
+        # AdSense AD unit ID
+        slot_id: ''
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
