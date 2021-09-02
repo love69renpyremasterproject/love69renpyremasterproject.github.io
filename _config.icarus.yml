@@ -29,11 +29,11 @@ head:
         icons:
             -
                 # The path to the image file
-                src: ''
+                src: /img/logo/love69renpyremasterproject.png
                 # A string containing space-separated image dimensions
-                sizes: ''
+                sizes: 1024x1024
                 # A hint as to the media type of the image
-                type: 
+                type: image/png
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
@@ -223,36 +223,36 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Love69 Ren'py Remaster Project Offical
         # Author title
-        author_title: Your title
+        author_title: Demo 版绝赞制作中！
         # Author's current location
-        location: Your location
+        项目状态: 在做了在做了
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/logo/love69renpyremasterproject.png
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
-        gravatar: 
+        gravatar: luckykeeper@luckykeeper.site
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/luckykeeper/LOVE69_renpy_remaster'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+                url: 'https://github.com/luckykeeper/LOVE69_renpy_remaster'
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: 'https://facebook.com'
+            # Twitter:
+            #     icon: fab fa-twitter
+            #     url: 'https://twitter.com'
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -271,8 +271,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            项目地址: 'https://github.com/luckykeeper/LOVE69_renpy_remaster'
+            组长的个人博客: 'https://bulma.io'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -305,12 +305,12 @@ widgets:
     # Google AdSense unit configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+        # position: left
+        # type: adsense
+        # # AdSense client ID
+        # client_id: ''
+        # # AdSense AD unit ID
+        # slot_id: ''
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
