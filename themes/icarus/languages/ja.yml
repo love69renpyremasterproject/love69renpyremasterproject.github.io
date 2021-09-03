@@ -17,7 +17,7 @@ common:
     prev: '前'
     next: '次'
 widget:
-    follow: 'フォローする'
+    follow: 'プロジェクトのホームページに行きます'
     recents: '最近の記事'
     links: 'リンク'
     catalogue: 'カタログ'

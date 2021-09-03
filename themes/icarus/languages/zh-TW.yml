@@ -17,7 +17,7 @@ common:
     prev: '上一頁'
     next: '下一頁'
 widget:
-    follow: '追蹤'
+    follow: '前往項目主頁'
     recents: '最新文章'
     links: '連結'
     catalogue: '文章目錄'

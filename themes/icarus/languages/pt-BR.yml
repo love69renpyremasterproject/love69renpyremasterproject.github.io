@@ -17,7 +17,7 @@ common:
     prev: 'Anterior'
     next: 'Próximo'
 widget:
-    follow: 'Seguir'
+    follow: 'Vai para a página de casa do projeto'
     recents: 'Recentes'
     links: 'Links'
     catalogue: 'Catálogo'
