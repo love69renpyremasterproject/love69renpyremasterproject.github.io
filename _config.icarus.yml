@@ -105,12 +105,12 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        主页: / || home
-        归档: /archives || th
-        分类: /categories || tags
-        标签: /tags || archive
-        关于我们: /about || users
-        歌单: /musiclist || music
+        主页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于我们: /about
+        歌单: /musiclist
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
