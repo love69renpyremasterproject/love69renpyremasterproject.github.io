@@ -1,0 +1,35 @@
+#toc {
+    align-self: flex-start
+    position: -webkit-sticky
+    position: sticky
+    top: .75rem
+}
+
+.widget {
+    background-color: #ffffffcf;
+}
+
+.is-2-column { 
+    background-image: url(/img/logo/bg.png);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+
+@media screen and (min-width: 1104px), print {
+    .column.is-4, .column.is-4-tablet {
+        width: 25%
+    }
+
+    .column.is-8, .column.is-8-tablet {
+        width: 75%
+    }
+}
+
+.article
+    .content
+        a
+            img
+                margin: auto
+                display: block
