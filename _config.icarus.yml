@@ -274,7 +274,7 @@ widgets:
         # Names and URLs of the sites
         links:
             项目地址: 'https://github.com/luckykeeper/LOVE69_renpy_remaster'
-            组长的个人博客: 'https://bulma.io'
+            组长的个人博客: 'http://b.luckykeeper.site/'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
