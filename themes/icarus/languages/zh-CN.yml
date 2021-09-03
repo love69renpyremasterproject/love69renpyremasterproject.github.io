@@ -17,9 +17,6 @@ common:
     about:
         one: '关于我们'
         other: '关于我们'
-    musiclist:
-        one: '歌单'
-        other: '歌单'
     prev: '上一页'
     next: '下一页'
 widget:
