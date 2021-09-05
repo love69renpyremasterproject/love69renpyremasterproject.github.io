@@ -2,7 +2,6 @@
 title: 关于我们
 date: 2021-09-03 22:53:34
 updated: 2021-09-03 22:53:34
-type: "about"
 categories: 项目组相关信息
 tags: 项目组相关信息
 ---
