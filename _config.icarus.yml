@@ -109,6 +109,7 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
+        豆知识: /knowledge
         关于我们: /about
     # Links to be shown on the right of the navigation bar
     links:
@@ -227,7 +228,7 @@ widgets:
         # Author name
         author: Love69 Ren'py Remaster Project Offical
         # Author title
-        author_title: Demo 版绝赞制作中
+        author_title: 正式版绝赞制作中
         # Author's current location
         location: 华夏
         # URL or path to the avatar image
@@ -275,6 +276,7 @@ widgets:
         links:
             项目地址: 'https://github.com/luckykeeper/LOVE69_renpy_remaster'
             组长的个人博客: 'http://b.luckykeeper.site/'
+            组员W的个人博客: 'https://worldline.top/'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
