@@ -111,6 +111,7 @@ navbar:
         标签: /tags
         豆知识: /knowledge
         关于我们: /about
+        小游戏: https://eatcocoa.luckykeeper.site:44443/
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
