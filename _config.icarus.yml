@@ -278,6 +278,10 @@ widgets:
             项目地址: 'https://github.com/luckykeeper/LOVE69_renpy_remaster'
             组长的个人博客: 'http://b.luckykeeper.site/'
             组员W的个人博客: 'https://worldline.top/'
+            项目组官网 GH-Pages: 'https://love69renpyremasterproject.github.io/'
+            项目组官网国内镜像站: 'https://love69.luckykeeper.site:44443/'
+            文档站 GH-Pages: 'https://love69-renpy-remaster-project.github.io/Doc/'
+            文档站国内镜像站: 'https://love69doc.luckykeeper.site:44443/Doc/'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
