@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-
+      
 jobs:
   hexo-deployment:
     runs-on: ubuntu-latest
