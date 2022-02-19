@@ -7,7 +7,7 @@ logo: /img/logo/love69renpyremasterproject.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/logo/love69renpyremasterproject.png
+    favicon: /img/logo/favicon.ico
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
