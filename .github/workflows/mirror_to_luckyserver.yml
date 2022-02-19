@@ -1,41 +1,48 @@
-name: 同步到 LuckyServer
+name: 镜像到 LuckyServer
 on:
   push:
     branches:
+
       - master
 
 jobs:
-  hexo-deployment:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      TZ: Asia/Shanghai
-
     steps:
-    - name: Checkout source
-      uses: actions/checkout@v2
-      with:
-        submodules: true
 
-    - name: 安装 Node.js
+    - name: 1. git checkout...
+
+      uses: actions/checkout@v1
+
+    - name: 2. 安装 nodejs...
+
       uses: actions/setup-node@v1
-      with:
-        node-version: '16.8.0'
 
-    - name: 安装依赖 & 生成静态文件
+    - name: 3. 安装 hexo...
+
       run: |
-        node -v
-        npm i -g hexo-cli
-        npm i
+        npm install hexo-cli -g
+        npm i -S hexo-prism-plugin -g
+        npm install hexo-generator-search --save -g
+        npm i hexo-permalink-pinyin  -g
+        npm i --save hexo-wordcount -g
+        npm install hexo-filter-github-emojis  -g
+        npm install hexo-generator-feed  -g
+        npm install
+
+    - name: 4. 生成静态文件
+
+      run: |
         hexo clean
         hexo g
 
-      - name: 上传到 LuckyServer
-        uses: SamKirkland/FTP-Deploy-Action@2.0.0
-        env:
-          FTP_SERVER: ipv4.luckykeeper.site
-          FTP_USERNAME: love69_luckykeeper_site
-          FTP_PASSWORD: ${{ secrets.MIRROR_FTP_PS }}
-          # port: 21
-          LOCAL_DIR: public
-          REMOTE_DIR: /
-          ARGS: --delete --transfer-all --exclude=logreport --verbose
+    - name: 上传到 LuckyServer
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ipv4.luckykeeper.site
+        FTP_USERNAME: love69_luckykeeper_site
+        FTP_PASSWORD: ${{ secrets.MIRROR_FTP_PS }}
+        # port: 21
+        LOCAL_DIR: public
+        REMOTE_DIR: /
+        ARGS: --delete --transfer-all --exclude=logreport --verbose
