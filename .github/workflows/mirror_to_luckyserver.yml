@@ -17,6 +17,8 @@ jobs:
     - name: 2. 安装 nodejs...
 
       uses: actions/setup-node@v1
+      with:
+        node-version: '16.8.0'
 
     - name: 3. 安装 hexo...
 
