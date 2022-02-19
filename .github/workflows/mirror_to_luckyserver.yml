@@ -32,13 +32,13 @@ jobs:
         npm install hexo-generator-feed  -g
         npm install
 
-    - name: 4. 生成静态文件
+    - name: 4. 生成静态文件...
 
       run: |
         hexo clean
         hexo g
 
-    - name: 上传到 LuckyServer
+    - name: 5. 上传到 LuckyServer...
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: ipv4.luckykeeper.site
