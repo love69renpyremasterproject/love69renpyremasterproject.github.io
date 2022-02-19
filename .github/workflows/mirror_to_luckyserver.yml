@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      
+
 jobs:
   hexo-deployment:
     runs-on: ubuntu-latest
@@ -14,12 +14,12 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v2
       with:
-      submodules: true
+        submodules: true
 
     - name: 安装 Node.js
       uses: actions/setup-node@v1
       with:
-      node-version: '16.8.0'
+        node-version: '16.8.0'
 
     - name: 安装依赖 & 生成静态文件
       run: |
