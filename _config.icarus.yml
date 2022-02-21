@@ -377,7 +377,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: G-CKNW41W481
+        tracking_id: UA-221056269-2
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
