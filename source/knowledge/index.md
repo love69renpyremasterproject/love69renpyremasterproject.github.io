@@ -2,30 +2,18 @@
 title: 豆知识
 type: "knowledge"
 date: 2021年10月23日 15:31:59
-updated: 2021年10月23日 15:31:59
+updated: 2022年4月3日 18:26:29
 ---
 
 By Love69 Ren'py Remaster Project
 
-这个页面是为了方便各位使用移动端游玩的客官，把电脑版的“这是个啥文件夹？”搬了过来
+这个页面是为了方便各位使用移动端游玩的客官，把电脑版的豆知识PDF文档搬了过来
 
-这里包含了扩展阅读资料，如果你阅读到了相应部分，对相关内容感兴趣，请根据编号查找你想找的资料
+这里包含了扩展阅读资料，如果你阅读到了相应部分，对相关内容感兴趣，可以在这里找到
 
 可能包含剧透，一定看到相应部分再来康哦~
 
-# 豆知识
-
-## 1-①百人一首
-
-这里提供了几个网址，感兴趣的可以康康去
-
-百人一首比赛的官网    # 参考资料1：http://karuta.game.coocan.jp/index.html
-
-百人一首比赛的玩法（嘤文）    # 参考资料2：http://karuta.game.coocan.jp/handbook%20e.pdf
-
-Y2B的比赛视频    # 参考资料3：https://www.youtube.com/watch?v=2HEssh9PFxY
-
-维基百科的词条    # 参考资料4：https://ja.wikipedia.org/wiki/全国高等学校小倉百人一首かるた選手権大会
+[点我下载豆知识PDF文档](https://love69renpyremasterproject.github.io/img/豆知识.pdf)
 
 # Demo版发行Readme
 
